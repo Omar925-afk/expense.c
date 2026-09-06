@@ -9,7 +9,7 @@ typedef struct // تعريف هيكل بيانات لتخزين المصاريف
     char name[50];
     float amount;
 
-    
+
 
      // متغير من نوع float عشان نقدر نخزن مصاريف فيها كسور
 
@@ -105,7 +105,7 @@ void list_expenses(Expense expenses[], int count)
         printf("%d. %s - %.2f\n",
                i + 1,
                expenses[i].name,
-               expenses[i].amount);
+               expenses[i].amount); 
     }
 }
 
