@@ -15,8 +15,8 @@ int main(void)
     int attempts = 0;  // تخزين عدد المحاولات
 
     printf("hi \n");
-    printf("أنا اخترت رقم من 1 إلى 20\n");
-    printf("حاول تخمينه!\n\n");
+    printf(" i chose number from 1 to 20\n");
+    printf(" try to guess it!\n");
 
     // حلقة اللعبة
     while (guess != secret_number)
