@@ -105,7 +105,7 @@ void list_expenses(Expense expenses[], int count)
         printf("%d. %s - %.2f\n",
                i + 1,
                expenses[i].name,
-               expenses[i].amount); 
+               expenses[i].amount);
     }
 }
 
@@ -120,3 +120,4 @@ void show_total(Expense expenses[], int count) // داله عشان نعرض ا�
 
     printf("Total expenses: %.2f\n", total);
 }
+
