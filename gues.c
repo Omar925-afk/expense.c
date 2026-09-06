@@ -2,7 +2,7 @@
 #include <stdlib.h>        // مكتبه عشان نقدر نستخدم دوال توليد الارقام العشوائيه
 #include <time.h>      // مكتبه عشان نقدر نستخدم دوال الوقت زي time() و srand() لتوليد الارقام العشوائيه
 #include <cs50.h>     // مكتبه عشان نقدر نستخدم دوال الادخال من المستخدم زي get_string و get_int و get_char
-int main(void) 
+int main(void)
 {
     //   رقم عشوائي
     srand(time(0)); // تهيئة مولد الأرقام العشوائية باستخدام الوقت الحالي كـ seed
@@ -18,7 +18,7 @@ int main(void)
     printf(" try to guess it!\n");
 
     // حلقة اللعبة
-    while (guess != secret_number)
+    while (guess != secret_number) 
     {
         printf("ادخل تخمينك: ");
         scanf("%d", &guess); // قراءة التخمين من المستخدم
