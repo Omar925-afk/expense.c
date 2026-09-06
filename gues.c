@@ -1,35 +1,42 @@
-#include <cs50.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>  // مكتبه عشان نقدر نستخدم دوال الادخال والاخراج
+#include <stdlib.h> // مكتبه عشان نقدر نستخدم دوال توليد الارقام العشوائيه
 #include <time.h>
 
 int main(void)
 {
-    // تهيئة الرقم العشوائي
-    srand(time(NULL));
-    int secret_number = (rand() % 100) + 1;
+    // سيد رقم عشوائي
+    srand(time(0));
+    int secret_number = rand() % 100 + 1;  // رقم من 1 إلى 100
+
     int guess = 0;
     int attempts = 0;
 
-    printf("--- لعبة تخمين الرقم (نسخة CS50) ---\n");
+    printf("مرحبا بك في لعبة تخمين الرقم!\n");
+    printf("أنا اخترت رقم من 1 إلى 100\n");
+    printf("حاول تخمينه!\n\n");
 
-    // استخدام while loop مع get_int من مكتبة cs50
+    // حلقة اللعبة
     while (guess != secret_number)
     {
-        guess = get_int("أدخل تخمينك: ");
+        printf("ادخل تخمينك: ");
+        scanf("%d", &guess);
         attempts++;
 
-        if (guess > secret_number)
+        if (guess < secret_number)
         {
-            printf("أصغر! \n");
+            printf("الرقم أكبر من تخمينك!\n\n");
         }
-        else if (guess < secret_number)
+        else if (guess > secret_number)
         {
-            printf("أكبر! \n");
+            printf("الرقم أصغر من تخمينك!\n\n");
         }
         else
         {
-            printf("مبروك! الرقم هو %i وعدد محاولاتك %i\n", secret_number, attempts);
+            printf("مبروك! خمنت الرقم بشكل صحيح!\n");
+            printf("الرقم هو: %d\n", secret_number);
+            printf("عدد المحاولات: %d\n", attempts);
         }
     }
+
+    return 0;
 }
