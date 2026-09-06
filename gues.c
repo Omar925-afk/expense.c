@@ -10,7 +10,7 @@ int main(void)
 
 
     string name = get_string("ادخل اسمك: "); // طلب من المستخدم إدخال اسمه وتخزينه في متغير name
-     
+     printf("hi %s\n", name); // عرض رسالة ترحيب بالمستخدم باستخدام اسمه
 
     int guess = 0;    // تخزين رقم صيغته integer
     int attempts = 0;  // تخزين عدد المحاولات
