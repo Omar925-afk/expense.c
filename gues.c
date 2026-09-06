@@ -19,8 +19,8 @@ int main(void)
     while (guess != secret_number)
     {
         printf("ادخل تخمينك: ");
-        scanf("%d", &guess);
-        attempts++;
+        scanf("%d", &guess); // قراءة التخمين من المستخدم
+        attempts++; // زيادة عدد المحاولات
 
         if (guess < secret_number)
         {
@@ -33,7 +33,7 @@ int main(void)
         else
         {
             printf("مبروك! خمنت الرقم بشكل صحيح!\n");
-            printf("الرقم هو: %d\n", secret_number);
+            printf("الرقم هو: %d\n", secret_number);// عرض الرقم الصحيح d 
             printf("عدد المحاولات: %d\n", attempts);
         }
     }
