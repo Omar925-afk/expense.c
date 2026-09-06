@@ -9,7 +9,7 @@ int main(void)
     int secret_number = rand() % 100 + 1;  // رقم عشوائي كبير يتقسم ويتجمع علي 100+1
 
     int guess = 0;    // تخزين رقم صيغته integer
-    int attempts = 0;
+    int attempts = 0;  // تخزين عدد المحاولات
 
     printf("مرحبا بك في لعبة تخمين الرقم!\n");
     printf("أنا اخترت رقم من 1 إلى 100\n");
