@@ -8,7 +8,7 @@ int main(void)
     srand(time(0)); // تهيئة مولد الأرقام العشوائية باستخدام الوقت الحالي كـ seed
     int secret_number = rand() % 100 + 1;  // رقم عشوائي كبير يتقسم ويتجمع علي 100+1
 
-    int guess = 0;
+    int guess = 0;    // تخزين رقم صيغته integer
     int attempts = 0;
 
     printf("مرحبا بك في لعبة تخمين الرقم!\n");
