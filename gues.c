@@ -36,9 +36,9 @@ int main(void)
         else
         {
 
-            printf("good job! You guessed the number %d in %d attempts.\n", secret_number, attempts);
-            printf()
-            printf("عدد المحاولات: %d\n", attempts);
+            printf("good job! You guessed the number %d in %d attempts.\n", secret_number, attempts);  // عرض رسالة نجاح مع الرقم الصحيح وعدد المحاولات
+            printf("number of attempts: %d\n", attempts);
+            printf("time taken: %d seconds\n", attempts);
         }
     }
 
