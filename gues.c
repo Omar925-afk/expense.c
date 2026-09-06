@@ -8,7 +8,10 @@ int main(void)
     srand(time(0)); // تهيئة مولد الأرقام العشوائية باستخدام الوقت الحالي كـ seed
     int secret_number = rand() % 20 + 1;  // رقم عشوائي كبير يتقسم ويتجمع علي 20+1
 
-         get_string("ادخل اسمك: "); // داله عشان نقدر نستخدم دوال الادخال من المستخدم زي get_string و get_int و get_char
+
+    string name = get_string("ادخل اسمك: "); // طلب من المستخدم إدخال اسمه وتخزينه في متغير name
+     
+
     int guess = 0;    // تخزين رقم صيغته integer
     int attempts = 0;  // تخزين عدد المحاولات
 
