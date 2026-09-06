@@ -24,11 +24,11 @@ int main(void)
 
         if (guess < secret_number)
         {
-            printf("الرقم أكبر من تخمينك!\n\n");
+            printf("ur number is too low!\n");
         }
         else if (guess > secret_number)
         {
-            printf("الرقم أصغر من تخمينك!\n\n");
+            printf("ur number is too high!\n\n");
         }
         else
         {
@@ -39,5 +39,5 @@ int main(void)
     }
 
     return 0; // إنهاء البرنامج بنجاح ونعيد تاني
-    
+
 }
