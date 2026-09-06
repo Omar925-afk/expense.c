@@ -33,10 +33,11 @@ int main(void)
         else
         {
             printf("مبروك! خمنت الرقم بشكل صحيح!\n");
-            printf("الرقم هو: %d\n", secret_number);// عرض الرقم الصحيح d 
+            printf("الرقم هو: %d\n", secret_number);// عرض الرقم الصحيح d رقم صحيح نظام العد العشري
             printf("عدد المحاولات: %d\n", attempts);
         }
     }
 
-    return 0;
+    return 0; // إنهاء البرنامج بنجاح ونعيد تاني
+    
 }
