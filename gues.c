@@ -6,8 +6,7 @@ int main(void)
 {
     //   رقم عشوائي
     srand(time(0)); // تهيئة مولد الأرقام العشوائية باستخدام الوقت الحالي كـ seed
-    int secret_number = rand(20) % ;  // رقم عشوائي كبير يتقسم ويتجمع علي 20+1
-
+    int secret_number = 20;
 
     string name = get_string("ادخل اسمك: "); // طلب من المستخدم إدخال اسمه وتخزينه في متغير name
      printf("hi %s\n", name); // عرض رسالة ترحيب بالمستخدم باستخدام اسمه
@@ -36,8 +35,9 @@ int main(void)
         }
         else
         {
-            printf("مبروك! خمنت الرقم بشكل صحيح!\n");
-            printf("الرقم هو: %d\n", secret_number);// عرض الرقم الصحيح d رقم صحيح نظام العد العشري
+
+            printf("good job! You guessed the number %d in %d attempts.\n", secret_number, attempts);
+            printf()
             printf("عدد المحاولات: %d\n", attempts);
         }
     }
