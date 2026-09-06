@@ -5,8 +5,8 @@
 int main(void)
 {
     //   رقم عشوائي
-    srand(time(0));
-    int secret_number = rand() % 100 + 1;  // رقم من 1 إلى 100
+    srand(time(0)); // تهيئة مولد الأرقام العشوائية باستخدام الوقت الحالي كـ seed
+    int secret_number = rand() % 100 + 1;  // رقم عشوائي كبير يتقسم ويتجمع علي 100+1
 
     int guess = 0;
     int attempts = 0;
