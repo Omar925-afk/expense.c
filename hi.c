@@ -1,10 +1,13 @@
 #include <stdio.h>
-#include <cs50.h>
-int main (void)
-for (i=0< i++)
-   {
 
-printf  ("love"/n);
+int main(void)
+{
+    int i;
 
+    for (i = 0; i < 50; i++)
+    {
+        printf("love u hogy \n");
+    }
 
-   }
+    return 0;
+}
