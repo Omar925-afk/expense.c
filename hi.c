@@ -6,7 +6,7 @@ int main(void)
 
     for (i = 0; i < 100; i++)
     {
-        printf(" هاجر 😍 ");
+        printf(" عمر  ");
     }
 
     return 0;
