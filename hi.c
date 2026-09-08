@@ -4,9 +4,9 @@ int main(void)
 {
     int i;
 
-    for (i = 0; i < 50; i++)
+    for (i = 0; i < 100; i++)
     {
-        printf("love u hogy 😍 \n ");
+        printf("love u hogy 😍  ");
     }
 
     return 0;
