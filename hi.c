@@ -6,7 +6,7 @@ int main(void)
 
     for (i = 0; i < 100; i++)
     {
-        printf("  killer\n");  
+        printf(" بحبك ");
     }
 
     return 0;
