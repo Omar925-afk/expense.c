@@ -12,7 +12,7 @@ int main (void)
 
 
   int highst = 0;
-  int score[n];
+  int score [3];
 
   for(int i=1; i<n; i++)
     {
