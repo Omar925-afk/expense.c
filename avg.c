@@ -4,8 +4,6 @@ int main (void)
 {
 
 
-  string name = get_string(" how much student are: ");
-
  int n = get_int("enter number of student: ");
 
 // مصفوفه ARRAYS
