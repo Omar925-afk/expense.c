@@ -10,15 +10,14 @@ int main (void)
 
 
     int number = 0;
-      int [n];
+
     for (int i = 0; i < n; i++)
     {
-      int score = get_int("number: ");
 
-     scan }
+         scanf("%d", &number); 
 
     }
 
-    printf("highest is %f\n", (float) highst);
+
 
 }
