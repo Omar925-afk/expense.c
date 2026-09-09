@@ -16,7 +16,7 @@ int main (void)
 
     }
 
-           printf("averge is %0.2f ", (float)  (score[0] + score[1]+score [2] )  *n );
+           printf("averge is %0.2f ", (float)  (score[0] + score[1]+score [2] )  /n );
 
 
 }
