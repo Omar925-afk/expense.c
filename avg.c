@@ -11,19 +11,24 @@ int main (void)
 // مصفوفه ARRAYS
 
 
-    int highst = 0;
+  int highst = 0;
+  int score [3];
 
   for(int i=0; i<n; i++)
     {
-      int score = get_int("score: ");
+        score[i] =get_int("score: ");
 
-      if (score > highst)
+        if (score[i] > highst)
         {
-        highst = score;
+            highst = score[i];
         }
+
+        
+
+
 
     }
 
-    printf("highest is %i\n", highst);
+           printf(" highst is %0.2f ", (float) highst );
 
 }
