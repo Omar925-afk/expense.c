@@ -5,8 +5,35 @@ int main(void)
 {
     int x = get_int("Enter first number: ");
     int y = get_int("Enter second number: ");
-    printf("%d\n", x + y);
-    return 0;
+
+  char op = get_char("Enter operation (+, -, *, /): ");
+  if (op == '+')
+  {
+
+    printf("Result: %d\n", x + y);
+  }
+  else if (op == '-')
+  {
+    printf("Result: %d\n", x - y);
+  }
+  else if (op == '*')
+  {
+    printf("Result: %d\n", x * y);
+  }
+  else (op == '/');
+
+
+    {
+      printf("Result: %.2f\n", (float)x / y);
+    }
+
+
+
+
+
+
+return 0;
+
+
+
 }
-
-
