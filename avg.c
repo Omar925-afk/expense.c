@@ -24,6 +24,6 @@ int main (void)
 
     }
 
-    printf("highest is %i\n", highst);
+    printf("highest is %f\n", (float) highst);
 
 }
