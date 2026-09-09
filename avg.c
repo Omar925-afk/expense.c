@@ -2,6 +2,10 @@
 #include <cs50.h>
 int main (void)
 {
+
+
+  string name = get_string(" how much student are: ");
+
  int n =3;
 
 // مصفوفه ARRAYS
