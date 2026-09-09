@@ -20,10 +20,10 @@ int main(void)
   {
     printf("Result: %d\n", x * y);
   }
-  else (op == '/');
+  else 
+  {
 
 
-    {
       printf("Result: %.2f\n", (float)x / y);
     }
 
