@@ -6,7 +6,7 @@ int main (void)
 
   string name = get_string(" how much student are: ");
 
- int n =3;
+ int n = get_int("enter number of student: ");
 
 // مصفوفه ARRAYS
 
@@ -20,7 +20,7 @@ int main (void)
 
     }
 
-           printf("averge is %0.2f ", (float)  (score[0] + score[1]+score [2] )  /n );
+           printf(" highst is %0.2f ", (float)  (score[0]  score[1] score [2] )  /n );
 
 
 }
