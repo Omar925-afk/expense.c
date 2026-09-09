@@ -7,7 +7,7 @@ int main (void)
  int n = get_int("enter number : ");
 
 // مصفوفه ARRAYS
-     
+     int arr[3]; // تعريف مصفوفة بحجم 3
 
     int number = 3;
 
